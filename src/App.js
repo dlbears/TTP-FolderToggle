@@ -1,24 +1,38 @@
+import {Component} from 'react'
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+class Folder extends Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      folderOpen: false
+    }
+  }
+
+  render() {
+    return (
+    <div>
+      <button onClick={() => this.setState({ folderOpen: !this.state.folderOpen })}>Toggle</button>
+      {
+        this.state.folderOpen && (
+          <ul>
+            { this.props.items.map(item => <li>{`Item ${item}`}</li>) }
+          </ul>
+        )
+      }
     </div>
+    )
+  }
+}
+
+function App() {
+  const folderItems = [1, 2, 3, 4, 5]
+
+  return (
+    <Folder items={folderItems}/>
   );
 }
 
