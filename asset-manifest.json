@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/TTP-FolderToggle/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/TTP-FolderToggle/static/js/main.666238ea.chunk.js",
+    "main.js.map": "/TTP-FolderToggle/static/js/main.666238ea.chunk.js.map",
+    "runtime-main.js": "/TTP-FolderToggle/static/js/runtime-main.1a4bdc83.js",
+    "runtime-main.js.map": "/TTP-FolderToggle/static/js/runtime-main.1a4bdc83.js.map",
+    "static/js/2.69e00943.chunk.js": "/TTP-FolderToggle/static/js/2.69e00943.chunk.js",
+    "static/js/2.69e00943.chunk.js.map": "/TTP-FolderToggle/static/js/2.69e00943.chunk.js.map",
+    "static/js/3.e81aa77b.chunk.js": "/TTP-FolderToggle/static/js/3.e81aa77b.chunk.js",
+    "static/js/3.e81aa77b.chunk.js.map": "/TTP-FolderToggle/static/js/3.e81aa77b.chunk.js.map",
+    "index.html": "/TTP-FolderToggle/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/TTP-FolderToggle/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.69e00943.chunk.js.LICENSE.txt": "/TTP-FolderToggle/static/js/2.69e00943.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/TTP-FolderToggle/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a4bdc83.js",
+    "static/js/2.69e00943.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.666238ea.chunk.js"
+  ]
+}
